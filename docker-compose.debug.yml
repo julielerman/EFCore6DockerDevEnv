@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  efcore6demos:
+    image: efcore6demos
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw
