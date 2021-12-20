@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "build": {
+      "dockerfile": "Dockerfile",
+      "args": { 
+          "VARIANT": "6.0"
+      }
+  },
+   "settings": {},
+   "extensions": [
+  ],
+  "remoteUser": "vscode"
+}
